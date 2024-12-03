@@ -12,10 +12,27 @@ class DetailChatPage extends StatelessWidget {
           vertical: 12,
         ),
         children: [
-          ChatBubbleSec(),
-          ChatBubbleSec(),
-          ChatBubbleSec(),
-          ChatBubbleSec(),
+          ChatBubbleSec(
+            text: 'Hi, This item is still available?',
+            isSender: true,
+            hasProduct: true,
+          ),
+          ChatBubbleSec(
+            text: 'Yes, the item is still available',
+            isSender: false,
+          ),
+          ChatBubbleSec(
+            text: 'How about the size?',
+            isSender: true,
+          ),
+          ChatBubbleSec(
+            text: 'It\'s available in 42 and 43',
+            isSender: false,
+          ),
+          ChatBubbleSec(
+            text: 'Good Night',
+            isSender: true,
+          ),
         ],
       );
     }
