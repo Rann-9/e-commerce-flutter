@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:e_commerce/pages/ui/widget/widget.dart';
 import 'package:e_commerce/shared/shared.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 import 'package:intl/intl.dart';
 
 part 'ui/home_page.dart';
@@ -14,3 +15,4 @@ part 'ui/profile_page.dart';
 part 'ui/wish_list_page.dart';
 part 'ui/chat_page.dart';
 part 'ui/detail_chat_page.dart';
+part 'ui/edit_profile_page.dart';
