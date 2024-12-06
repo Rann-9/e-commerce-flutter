@@ -44,7 +44,7 @@ class ChatPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: backgroundColor1,
+      backgroundColor: backgroundColor3,
       body: ListView(
         children: [
           header(),
